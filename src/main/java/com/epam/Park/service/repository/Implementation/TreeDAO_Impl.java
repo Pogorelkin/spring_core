@@ -1,6 +1,7 @@
-package com.epam.Park.service.repository;
+package com.epam.Park.service.repository.Implementation;
 
 import com.epam.Park.service.entitiesDto.Tree;
+import com.epam.Park.service.repository.TreeDAO;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

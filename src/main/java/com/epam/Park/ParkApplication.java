@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import com.epam.Park.service.entitiesDto.Tree;
-import com.epam.Park.service.repository.TreeDAO_Impl;
+import com.epam.Park.service.repository.Implementation.TreeDAO_Impl;
 
 @SpringBootApplication
 public class ParkApplication {
