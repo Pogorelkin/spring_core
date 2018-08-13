@@ -1,13 +1,13 @@
 package com.epam.Park.service.repository;
 
-import com.epam.Park.service.Tree;
+import com.epam.Park.service.entitiesDto.Tree;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class ParkDAO_Impl implements ParkDAO {
+public class TreeDAO_Impl implements TreeDAO {
     private List<Tree> trees = new ArrayList<>();
 
 
@@ -25,6 +25,7 @@ public class ParkDAO_Impl implements ParkDAO {
     @Override
     public void plantTree(Tree tree) {
         trees.add(new Tree(tree.getTreeID(), tree.getTree_kind()));
+
     }
 
 

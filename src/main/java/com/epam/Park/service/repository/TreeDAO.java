@@ -1,10 +1,10 @@
 package com.epam.Park.service.repository;
 
-import com.epam.Park.service.Tree;
+import com.epam.Park.service.entitiesDto.Tree;
 
 import java.util.List;
 
-public interface ParkDAO<LIST> {
+public interface TreeDAO<LIST> {
     List<LIST> findAllTrees();
 
     void findTreeByID(int treeID);
